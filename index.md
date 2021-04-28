@@ -26,12 +26,20 @@ Figura 2: Interfaz RStudio
 
 Hay 5 tipos de datos básicos en R (**para asignar una variable se coloca <- o =**)
 
-| Tipo | Definición | código |  Notas |
+| Tipo | Definición | código |  Notas | 
 | ------------- | ------------- | ------------- | ------------- |
 | Numérico/Numeric  | números decimales   | ``` a <-1.3 ``` | Nota el punto decimal |
-| Entero/Integer  | números enteros   | ``` a<-1 ``` | Nota que no tiene punto decimal |
-| Texto/Character  | cadenas de caracteres   | ``` a<- "Hola" ``` | utiliza " " |
+| Entero/Integer  | números enteros   | ``` a <-1 ``` | Nota que no tiene punto decimal |
+| Texto/Character  | cadenas de caracteres   | ``` a <- "Hola" ``` | utiliza " " |
+| Logico/logical  | Verdadero o falso   | ``` a <- TRUE ``` | *no* utiliza "" |
 
+Estos datos (tipos *atomicos*) se pueden agrupar produciendo
+
+| Dimensión | Homogéneo | Heterogéneo | 
+| ------------- | ------------- | ------------- |
+| **una** dimensión  | *vector*   | lista |
+| **dos** dimensiones  | matrix   | *data frame* |
+| **n** dimensiones  | array   |  | 
 
 ```markdown
 Syntax highlighted code block
