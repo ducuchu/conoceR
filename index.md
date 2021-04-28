@@ -63,7 +63,33 @@ is.integer(d.9)
 ```
 #### conociendo los vectores
 
-Los vectores son (1)Elemento más básico que contienen la misma clase.
+Los vectores son, el elemento más básico que contienen la misma clase de datos.
+
+```markdown
+#Trabajando con Vectores
+#Mi primer vector
+pH<-c(7.2,7.8,7.6,6.8,8.1,9.6)
+
+#Operaciones
+d.9*pH
+pH+pH
+d.9+pH
+pHo<-d.9*pH
+#Selección de valores  --- comando: nombre vector[]
+pH[3]
+
+vector<-c("hola",1.2,TRUE)
+d.9*vector
+vector+vector
+d.9+vector
+
+#Creando secuencias de numeros --- comando: inicial:final
+x<-c(1:6)
+
+```
+#### Data frame
+
+Los vectores son, el elemento más básico que contienen la misma clase de datos.
 
 ```markdown
 #Trabajando con Vectores
