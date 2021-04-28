@@ -41,6 +41,7 @@ Estos datos (tipos *atomicos*) se pueden agrupar produciendo
 | **dos** dimensiones  | matrix   | ***data frame*** |
 | **n** dimensiones  | array   |  | 
 
+En código:
 ```markdown
 #Tipos de datos
 #Asignar variables
@@ -59,6 +60,32 @@ is.numeric(d)
 is.integer(d)
 d.9<-d-0.1
 is.integer(d.9)
+```
+#### conociendo los vectores
+
+Los vectores son (1)Elemento más básico que contienen la misma clase.
+
+```markdown
+#Trabajando con Vectores
+#Mi primer vector
+pH<-c(7.2,7.8,7.6,6.8,8.1,9.6)
+
+#Operaciones
+d.9*pH
+pH+pH
+d.9+pH
+pHo<-d.9*pH
+#Selección de valores  --- comando: nombre vector[]
+pH[3]
+
+vector<-c("hola",1.2,TRUE)
+d.9*vector
+vector+vector
+d.9+vector
+
+#Creando secuencias de numeros --- comando: inicial:final
+x<-c(1:6)
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
