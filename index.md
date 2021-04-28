@@ -16,6 +16,9 @@ Creo que lo más importante de *R* es que es _software libre_ significa que pued
 Figura 1: 
 ![Analogía de interfaz de usuario R](https://github.com/ducuchu/conoceR/blob/gh-pages/GithubR1.png)
 
+## Interfaz de usuario
+*R* es un lenguaje de programación, lo que permite ser versatil pero al mismo tiempo, es más difícil de aprender para los usuarios. Es por eso, que generalmente se utili
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
