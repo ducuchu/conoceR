@@ -22,9 +22,16 @@ RStudio es una buena interfaz de usuario, porque te permite observar en cuatro p
 Figura 2: Interfaz RStudio
 ![alt text](https://raw.githubusercontent.com/ducuchu/conoceR/gh-pages/GithubR2.png)
 
-### Variables de 
+### Tipos de datos
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Hay 5 tipos de datos básicos en R (**para asignar una variable se coloca <- o =**)
+
+| Tipo | Definición | código |  
+| ------------- | ------------- | ------------- |
+| Numérico/Numeric  | números decimales   | 
+```markdown a<-1.3 ``` | 
+| Numérico/Numeric  | números decimales   | 
+```markdown a<-1.3 ``` |
 
 ```markdown
 Syntax highlighted code block
