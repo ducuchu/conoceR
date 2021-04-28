@@ -1,6 +1,6 @@
 ## Tus primeros pasos
 
-*R* es un entorno y lenguaje de programación con enfoque al análisis estadístico (un lenguaje siempre tiene una estructura). Es ampliamente utilizado en investigación especialmente por su característica de ser _reproducible_ (todos pueden ver el código y utilizarlo en sus análisis). Es creado por estadísticos (nuestros amigos).
+*R* es un entorno y lenguaje de programación con enfoque al análisis estadístico (un lenguaje siempre tiene una estructura). Es ampliamente utilizado en investigación especialmente por su característica de ser _reproducible_ (todos pueden ver el código y utilizarlo en sus análisis). Es creado por estadísticos, por lo tanto es especialmente útil para hacer estos análisis.
 
 ### Markdown
 
