@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Tus primeros pasos
 
-You can use the [editor on GitHub](https://github.com/ducuchu/conoceR/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*R* es un entorno y lenguaje de programación con enfoque al análisis estadístico (un lenguaje siempre tiene una estructura). Es ampliamente utilizado en investigación especialmente por su característica de ser _reproducible_ (todos pueden ver el código y utilizarlo en sus análisis). Es creado por estadísticos (nuestros amigos).
 
 ### Markdown
 
