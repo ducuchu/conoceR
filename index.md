@@ -37,26 +37,28 @@ Estos datos (tipos *atomicos*) se pueden agrupar produciendo
 
 | Dimensión | Homogéneo | Heterogéneo | 
 | ------------- | ------------- | ------------- |
-| **una** dimensión  | *vector*   | lista |
-| **dos** dimensiones  | matrix   | *data frame* |
+| **una** dimensión  | ***vector***   | lista |
+| **dos** dimensiones  | matrix   | ***data frame*** |
 | **n** dimensiones  | array   |  | 
 
 ```markdown
-Syntax highlighted code block
+#Tipos de datos
+#Asignar variables
 
-# Header 1
-## Header 2
-### Header 3
+i<-1
 
-- Bulleted
-- List
+#como saber que tipo de variable es
+is.numeric(i)
+is.character(i)
+is.integer(i)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+#Como trasnformarlo a otro tipo de variable
+d<-as.integer(i)
+d
+is.numeric(d)
+is.integer(d)
+d.9<-d-0.1
+is.integer(d.9)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
