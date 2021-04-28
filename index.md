@@ -2,6 +2,14 @@
 
 *R* es un entorno y lenguaje de programación con enfoque al análisis estadístico (un lenguaje siempre tiene una estructura). Es ampliamente utilizado en investigación especialmente por su característica de ser _reproducible_ (todos pueden ver el código y utilizarlo en sus análisis). Es creado por estadísticos, por lo tanto es especialmente útil para hacer estos análisis.
 
+## R versus otros software
+
+Creo que lo más importante de *R* es que es _software libre_ significa que puedes usarlo libremente y distribuirlo. También significa que hay muchas personas dispuesto a ayudarte y hacer este tipo de ayuda o cursos. Las comunidades de software libre, mantienen los paquetes, los crean y ayudan. Aquí hay algunas razones para utilizar *R*:
+- Es multiplataforma (puede ser instalado en equipos con diferentes sistemas operativos).
+- Es software libre
+- Tiene una amplia gama de paquetes que pueden ampliar las funcionalidades de cálculo y graficación (Ciencias naturales, ciencias sociales, ingeniería, etc.)
+- Específico para realizar: limpieza, análisis, visualización y modelado de datos 
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
