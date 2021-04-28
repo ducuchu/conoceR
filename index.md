@@ -14,7 +14,7 @@ Creo que lo más importante de *R* es que es _software libre_ significa que pued
 *R* es un lenguaje de programación, lo que permite ser versatil pero al mismo tiempo, es más difícil de aprender para los usuarios. Es por eso, que generalmente se utilizan interfaces que faciliten esta tarea. Como se puede ver en la imagen, *R* es el "motor" mientras que el modelo del carro, es la interfaz. Los usuarios deben sentirse cómodos con la interfaz que seleccionen. Colocó algunas interfaces que se pueden usar. En este ejemplo utilizaremos RStudio, por su facilidad y funcionalidad.
 
 Figura 1: 
-![Analogía de interfaz de usuario R](https://github.com/ducuchu/conoceR/blob/gh-pages/GithubR1.png "Logo Title Text 1")
+![Analogía de interfaz de usuario R](https://github.com/ducuchu/conoceR/blob/gh-pages/GithubR1.png)
 
 ### Markdown
 
