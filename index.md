@@ -175,7 +175,8 @@ muy específicos para cada área del conocimiento (ejemplo: vegan).
 search()
 
 #instalando paquetes en R
-install.packages("fun")
+install.packages("psych")
+install.packages("ggplot2")
 
 # Se requiere cargar el paquete cada vez que se utiliza (cargar paquetes en memoria)
 library(ggplot2)
@@ -184,6 +185,45 @@ library(psych)
 ```
 
 ## Manipulación de datos
+```markdown
+###############################################################################
+# Manipulando los datos
 
-### Support or Contact
+# Utilización de una base precargada del paquete ggplot2
+
+
+# Como ver el resumen de una DataFrame
+head(mpg)
+
+#resumiendo nuestras variables
+str(mpg)
+summary(mpg) #puede determinar si hay NA
+describe(mpg) #función del paquete psych
+
+## Tabla de frecuencias (por variable)
+table(mpg$cyl)
+hist(mpg$cyl)
+#Frecuencias relativas
+prop.table(table(mpg$cyl))
+
+#graficando rapidamente factores
+table(mpg$class)
+barplot(table(mpg$class))
+
+#Necesitamos saber si hay datos faltantes NA
+table(mpg$cyl,useNA="ifany")
+
+#Cruzando datos rapidamente
+table(mpg$cyl, mpg$class)
+boxplot(mpg$cyl~mpg$class)
+
+```
+
+### Bibliografía
+1. Libro: R for Data Science [Github](https://r4ds.had.co.nz/index.html)
+2. Angelo Santana, Carmen N. Hernández, Departamento de Matemáticas (2016) [link](https://estadistica-dma.ulpgc.es/cursoR4ULPGC/index.html)
+3. Paúl Bravo L. & Francisco Salgado C. (2019) [link](https://bookdown.org/chescosalgado/intro_r/)
+4. Sonia Mendizábal. Taller introducción a R [Github](https://songeo.github.io/introduccion-r-bookdown/)
+5. Repositorio de RLadies  [Github](https://github.com/rladies)
+
 
