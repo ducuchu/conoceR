@@ -113,19 +113,45 @@ Las bases de datos son un conjunto de datos, que puede entenderse como una lista
 
 
 ```markdown
-#creando matrices:
+#Aca se observa como una Dataframe es un listado de vectores
+#Edad (años), peso (kg), estatura (cm), genero (F:Femenino, M:Masculino y O:Otro)
+db <- data.frame(edad=c(19,20,27,21,21,18,25),
+                  peso=c(45,52,140,70,63,90,98), 
+                  estatura=c(1.50,1.60,1.55,1.72,1.67,1.60,1.56),
+                  genero=c("F","M","F","M","M","F","F"))
+db
 
-dim(x) <- c(4,5) # ¿Que hace dim? coloca help(dim) en consola y lo veras.
-x
+#revisa la clase:
+class(db)
 
-matrix(data = 1:20, nrow = 4, ncol = 5, byrow = F)
-y<-matrix(data = 1:20, nrow = 4, ncol = 5, byrow = T)
-dim(y) #genera las dimensiones filas y columnas
+#puedo obtener y cambiar el nombre de las columnas muy facilmente
 
-#Encontrando datos y operaciones
-y[1,1]
+#muestra los nombres de las columnas
+colnames(db) 
 
-x*y
+colnames(db)<-c("age","weight","height","gender")
+
+#Primos pasos para analizar datos
+
+#Seleccionar una columna
+db$age
+
+#Estadística descriptiva
+#media (mean), desviación estandar (sd), valor mínimo (min), valor máximo (max)
+mean(db$age)
+
+#creando columnas rapidamente
+db$IMC<-db$weight/(db$height)^2
+view(db)
+
+#viendo las diferentes funciones genericas que tiene R
+help("groupGeneric")
+
+#extrañendo datos de un archivo .csv
+#por facilidad es bueno seleccionar la ubicacion
+db<-read.csv("dbtestate.csv")
+
+
 
 ```
 
