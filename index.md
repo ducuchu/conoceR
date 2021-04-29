@@ -109,8 +109,26 @@ x*y
 ```
 #### Data Frames
 
-L
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Las bases de datos son un conjunto de datos, que puede entenderse como una lista de vectores. Puede estar conformado por diferentes tipos de datos. Es la tabla de datos por excelencia: las columnas son las variables que se miden y las filas las observaciones. 
+
+
+```markdown
+#creando matrices:
+
+dim(x) <- c(4,5) # ¿Que hace dim? coloca help(dim) en consola y lo veras.
+x
+
+matrix(data = 1:20, nrow = 4, ncol = 5, byrow = F)
+y<-matrix(data = 1:20, nrow = 4, ncol = 5, byrow = T)
+dim(y) #genera las dimensiones filas y columnas
+
+#Encontrando datos y operaciones
+y[1,1]
+
+x*y
+
+```
+
 
 ### Jekyll Themes
 
