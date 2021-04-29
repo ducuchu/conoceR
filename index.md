@@ -167,59 +167,23 @@ Un paquete en R permite:
 -Aumento de las características del análisis
 -Flexibilidad
 
+Es una colección de funciones, datos y código R que permite generar una instrucción específica para R. Hay paquetes
+muy específicos para cada área del conocimiento (ejemplo: vegan).
+
 ```markdown
-#Aca se observa como una Dataframe es un listado de vectores
-#Edad (años), peso (kg), estatura (cm), genero (F:Femenino, M:Masculino y O:Otro)
-db <- data.frame(edad=c(19,20,27,21,21,18,25),
-                  peso=c(45,52,140,70,63,90,98), 
-                  estatura=c(1.50,1.60,1.55,1.72,1.67,1.60,1.56),
-                  genero=c("F","M","F","M","M","F","F"))
-db
+#puedes saber que paquetes tienes en:
+search()
 
-#revisa la clase:
-class(db)
+#instalando paquetes en R
+install.packages("fun")
 
-#puedo obtener y cambiar el nombre de las columnas muy facilmente
-
-#muestra los nombres de las columnas
-colnames(db) 
-
-colnames(db)<-c("age","weight","height","gender")
-
-#Primos pasos para analizar datos
-
-#Seleccionar una columna
-db$age
-
-#Estadística descriptiva
-#media (mean), desviación estandar (sd), valor mínimo (min), valor máximo (max)
-mean(db$age)
-
-#creando columnas rapidamente
-db$IMC<-db$weight/(db$height)^2
-view(db)
-
-#viendo las diferentes funciones genericas que tiene R
-help("groupGeneric")
-
-#extrañendo datos de un archivo .csv
-#por facilidad es bueno seleccionar la ubicacion
-db<-read.csv("dbtestate.csv")
-
-#Bases de datos precargadas en R (existen varias)
-
-#En R existen varias bases de datos precargados
-data()
-head(cars)
-
-cars
+# Se requiere cargar el paquete cada vez que se utiliza (cargar paquetes en memoria)
+library(ggplot2)
+library(psych)
 
 ```
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ducuchu/conoceR/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Manipulación de datos
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
