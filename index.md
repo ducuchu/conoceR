@@ -61,7 +61,7 @@ is.integer(d)
 d.9<-d-0.1
 is.integer(d.9)
 ```
-#### conociendo los vectores
+#### Conociendo los vectores
 
 Los vectores son, el elemento más básico que contienen la misma clase de datos.
 
@@ -87,33 +87,29 @@ d.9+vector
 x<-c(1:6)
 
 ```
-#### Data frame
+#### Matrices
 
-Los vectores son, el elemento más básico que contienen la misma clase de datos.
+Las matrices son un arreglo de dos dimensiones donde los elementos son del mismo tipo, generalmente numéricos. Especialmente útiles para hacer análisis matricial. Maneja **número de filas y número de columnas, que se conocen como dimensiones**. 
 
 ```markdown
-#Trabajando con Vectores
-#Mi primer vector
-pH<-c(7.2,7.8,7.6,6.8,8.1,9.6)
+#creando matrices:
 
-#Operaciones
-d.9*pH
-pH+pH
-d.9+pH
-pHo<-d.9*pH
-#Selección de valores  --- comando: nombre vector[]
-pH[3]
+dim(x) <- c(4,5) # ¿Que hace dim? coloca help(dim) en consola y lo veras.
+x
 
-vector<-c("hola",1.2,TRUE)
-d.9*vector
-vector+vector
-d.9+vector
+matrix(data = 1:20, nrow = 4, ncol = 5, byrow = F)
+y<-matrix(data = 1:20, nrow = 4, ncol = 5, byrow = T)
+dim(y) #genera las dimensiones filas y columnas
 
-#Creando secuencias de numeros --- comando: inicial:final
-x<-c(1:6)
+#Encontrando datos y operaciones
+y[1,1]
+
+x*y
 
 ```
+#### Data Frames
 
+L
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
